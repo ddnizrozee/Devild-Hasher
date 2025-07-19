@@ -51,6 +51,15 @@ def show_banner():
     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
     """)
 
+def get_unique_filename(base_name):
+    """Generate a unique filename by appending (1), (2), etc. if needed."""
+    name, ext = os.path.splitext(base_name)
+    counter = 1
+    while os.path.exists(base_name):
+        base_name = f"{name}({counter}){ext}"
+        counter += 1
+    return base_name
+
 def main():
     show_banner()
     print("\n1. Hash text input")
@@ -75,10 +84,11 @@ def main():
         print("Invalid choice!")
         return
     
-    with open("deviled_text.txt", "w") as f:
+    output_filename = get_unique_filename("deviled_text.txt")
+    with open(output_filename, "w") as f:
         f.write(result)
     
-    print("\nHash generated and saved to 'deviled_text.txt'")
+    print(f"\nHash generated and saved to '{output_filename}'")
 
 if __name__ == "__main__":
     main()
