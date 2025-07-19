@@ -1,5 +1,11 @@
-# *🔥 𝕯𝖊𝖛𝖎𝖑𝖉 𝕳𝖆𝖘𝖍𝖊𝖗*
+# 📣 IMPORTANT
+
+***THERE ARE NO HASH-CRACKERS FOR **𝕯𝖊𝖛𝖎𝖑𝖉 𝕳𝖆𝖘𝖍𝖊𝖗** AS OF NOW :( . I AM WORKING ON IT, STAY TUNED!!! COMING SOON!!! 😎 👍*** 
+
+# ***🔥 𝕯𝖊𝖛𝖎𝖑𝖉 𝕳𝖆𝖘𝖍𝖊𝖗***
+
    ![devil-may-cry-dmc](https://github.com/user-attachments/assets/514604e1-1aa1-4887-ae56-39f492b385f5)
+
 
 *A DNA-encoded cryptographic hasher with devilish security.*  
 
