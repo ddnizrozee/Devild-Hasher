@@ -1,7 +1,3 @@
-# 📣 IMPORTANT
-
-***THERE ARE NO HASH-CRACKERS FOR **𝕯𝖊𝖛𝖎𝖑𝖉 𝕳𝖆𝖘𝖍𝖊𝖗** AS OF NOW :( . I AM WORKING ON IT, STAY TUNED!!! COMING SOON!!! 😎 👍*** 
-
 # ***🔥 𝕯𝖊𝖛𝖎𝖑𝖉 𝕳𝖆𝖘𝖍𝖊𝖗***
 
    ![devil-may-cry-dmc](https://github.com/user-attachments/assets/514604e1-1aa1-4887-ae56-39f492b385f5)
@@ -20,6 +16,8 @@ Hashes text/files into **unbreakable A/T/G/C sequences** using SHA-512 + XOR + g
 
 ## 🧬 Usage
 
+### 🧬 Encoding
+
     python3 devild-hasher.py
 
 After you run devild-hasher.py;
@@ -36,4 +34,16 @@ e.g. (After you press 2)
 
     /home/kali/Downloads/secret_stuff.txt
 
-Output saves to deviled_text.txt
+Output saves to encoded_output.txt
+
+***!DON'T FORGET THE SAVE THE KEY AFTER ENCODING THE TEXT SINCE YOU'LL NEED THE KEY TO DECODE IT!***
+
+### 🧬 Decoding
+
+    python3 devild_decoder.py
+
+After you run **devild_decoder.py**, write the path to your .txt file storing the encoded text (in this case ***encoded_output.py***)
+
+Then put the key you saved from the encoding session.
+
+Boom!
